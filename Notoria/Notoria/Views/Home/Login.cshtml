@@ -1,0 +1,81 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Notoria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="~/Notoria.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <img src="~/img/LOGO.png"
+        style="position: absolute; width: 244.2px; left: 597.8px; top: 80.92px; background: url()" />
+
+    <div class="card container-fluid"
+        style="width: 512px;height:420px;left:464px;top:150px;border-radius:10px;position:absolute;background:#FFFFFF">
+        <div class="card-header bg-transparent border-success"></div>
+
+        <div class="card-body container-fluid" style="background:#FFFFFF">
+            <br />
+            <form action="Dashboard">
+                <br />
+                <br />
+
+                <div class="row g-2 mb-3">
+                    <label for="email" class="text-info"> <i class="fa fa-envelope" aria-hidden="true"></i> Email
+                        address</label><br>
+                    <input style="background: #EDF2F7; border-radius: 15px; margin-inline: auto" type="email" id="email"
+                        class="form-control">
+                    <br />
+                </div>
+                <div class="row g-2">
+                    <label for="password" class="text-info"> <i class="fa fa-lock" aria-hidden="true"></i>
+                        Password</label><br>
+                    <input style="background: #EDF2F7; border-radius: 15px; margin-inline: auto" type="password"
+                        id="password" class="form-control">
+                    <br />
+                </div>
+
+                <input type="submit" value="Sing In" class="btn"
+                    style="position: absolute; width: 120px; height: 50px; left: 280px; background: #2A4365; top: 270px;color:white" />
+            </form>
+        </div>
+
+        <div class="card-footer container-fluid" style="background:#FFFFFF;">
+            <div class="row">
+                <div class="col-6">
+
+                    <a style="position: absolute; width: 201px; height: 50px; left: 115px; top:285px;" asp-action="">
+                        <p style="color: #3182CE">Forgot Password?</p>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <button class="btn btn-default"
+                    style="position: absolute; width: 285px; height: 50px; left: 115px; top:350px;"> Don´t have &
+                    Account? </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

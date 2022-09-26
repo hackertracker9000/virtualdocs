@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wJYcqoOagOUGv0jpQR1kvlOYLj3p8pu33o1b1/K+970gk0uYNFJPWByp5te4WIRVPeZ7mdXt62gt5+UoVczyoQ==",
+  "success": true,
+  "projectFilePath": "/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Notoria.csproj",
+  "expectedPackageFiles": [
+    "/home/oscarfg/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oscarfg/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oscarfg/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
