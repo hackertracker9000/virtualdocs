@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Views/Home/Calculadora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYWxjdWxhZG9yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Views/Home/Contratos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250cmF0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Views/Home/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/oscarfg/Documentos/VirtualDocs/Notoria/Notoria/Views/Home/Privacy.cshtml]

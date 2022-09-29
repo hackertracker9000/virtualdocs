@@ -146,6 +146,81 @@
                 <li class="nav-item dropdown">
 
                     <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-cart"></i>
+                        <span class="badge bg-warning badge-number">2</span>
+                    </a><!-- End Notification Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+                        <li class="dropdown-header">
+                            Tienes 4 notificaciones nuevas
+                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Ver Todo</span></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-exclamation-circle text-warning"></i>
+                            <div>
+                                <h4>Solicitudes Pendiente</h4>
+                                <p>ID Transacción #2147</p>
+                                <p>30 min. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-x-circle text-danger"></i>
+                            <div>
+                                <h4>Solicitud Rechadaza</h4>
+                                <p>ID Transacción #2644</p>
+                                <p>1 hr. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <div>
+                                <h4>Solicitud Aprobada</h4>
+                                <p>ID Transacción #2457</p>
+                                <p>2 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-info-circle text-primary"></i>
+                            <div>
+                                <h4>Formulario de Contacto</h4>
+                                <p>ID Email</p>
+                                <p>4 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li class="dropdown-footer">
+                            <a href="#">Mostrar todas las notificaciones</a>
+                        </li>
+
+                    </ul><!-- End Notification Dropdown Items -->
+
+                </li><!-- End Notification Nav -->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
                         <i class="bi bi-chat-left-text"></i>
                         <span class="badge bg-success badge-number">3</span>
                     </a><!-- End Messages Icon -->
@@ -308,7 +383,7 @@
             <li class="nav-heading">Pages</li>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="users-profile.html">
+                <a class="nav-link collapsed" asp-action="Perfil">
                     <i class="bi bi-person"></i>
                     <span>Perfil</span>
                 </a>
@@ -351,7 +426,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-blank.html">
+                <a class="nav-link collapsed" asp-action="Calculadora">
                     <i class="bi bi-file-earmark"></i>
                     <span>
                         CALCULADORA
